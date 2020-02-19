@@ -1,0 +1,49 @@
+#movies {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 3em 2em;
+    height: 100%;
+}
+
+.movie {
+    background: rgb(187, 204, 211);
+    border: double palevioletred;
+    border-radius: 25px;
+    
+}
+
+.title {
+    font-weight: bold;
+    font-size: 1.2em;
+    border-radius: 25px;
+    padding: 10px;
+    text-align: center;
+    background-image: linear-gradient(palevioletred, grey, lightblue);
+    color: purple;
+    font-family: monospace;
+
+    
+
+}
+
+.description {
+    font-family: monospace;
+    color: purple;
+    padding: 10px;
+}
+
+body {
+    background: url("https://3w8dlo2orf8y3crtc22sslbh-wpengine.netdna-ssl.com/wp-content/uploads/2020/01/Ghibili-large.jpg") no-repeat fixed center ;
+    height: 100%;
+    background-size: cover;
+
+}
+
+h1 {
+    text-align: center;
+    color: palevioletred;
+    font-style: oblique;
+    font-size: 5em;
+    font-family: monospace;
+
+}
